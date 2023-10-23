@@ -1,0 +1,138 @@
+body {
+    background-color: #cad6e2;
+    font-family: cursive;
+}
+
+#header {
+    font-size: 70px;
+    height: 150px;
+    line-height: 130px;
+    background-color: #b8d3d4;
+    text-align: center;
+    text-shadow: 4px 4px #857979;
+    border-style: dotted;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.board-container {
+    background-color: #b8d3d4;
+    border-style: solid;
+    border-color: grey;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;    
+}
+
+#root {
+    margin-left: 200px;
+    margin-right: 200px;
+}   
+
+.card {
+    background-color: #9e9797;
+    width: 150px;
+    height: 20px;
+    border: solid 1px;
+    text-align: center;
+    margin: 10px;
+}
+
+.status {
+    display: inline-table;
+    padding-top: 0px;
+    padding-right: 30px;
+    background-color: #b8b88d;
+    border: 1px solid;
+    padding: 15px;
+    height: auto;
+    width: 175px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+h3 {
+    padding-left: px;
+    width: 120px;
+    cursor: pointer;
+    display:inline;
+}
+
+h3:hover {
+    background-color: #96aabe;
+}
+
+
+h4 {
+    text-align: center;
+}
+
+button {
+    font-family: cursive;
+    background-color: #afbece;
+    border: solid 1px rgb(141, 103, 103);
+    padding: 5px;
+    margin : 10px;
+    margin-top: -1px;
+    margin-bottom: 10px;
+   
+}
+
+button:hover {
+    background-color: #96aabe;
+}
+
+button:focus {
+    background-color: #657b91;
+}
+
+.delete:hover {
+    background-color: #657b91;
+    cursor: pointer
+}
+.title:hover {
+    background-color: #657b91;
+    cursor:move
+}
+
+/* modal */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
