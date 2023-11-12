@@ -7,7 +7,7 @@ Main purpose of this web application is to provide useful tool for managing smal
 When we create new board, we can decide whether we want app to create default statuses for us in this board (In progress, new, testing, done) or leave it blank.  
 In every board we can create new statuses and in every status we are able to create cards with their description.  
 
-Order of cards can be changed within status. Moving cards between statuses is available aswell. Both operations are possible to accomplish via drag-and-drop.  
+Order of cards can be changed within status. Moving cards between statuses is available as well. Both operations are possible to accomplish via drag-and-drop.  
 Data can be modified by clicking on the individual description.  
 
 Finally, as users we are allowed to delete single cards, statuses and whole boards with everything inside them.  
